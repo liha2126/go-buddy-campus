@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+  var name string
+  var attendance int
+  
+  fmt.Print("Enter Student Name: ")
+  fmt.Scan(&name)
+  
+  fmt.Print("enter attendance:")
+  fmt.Scan(&attendance)
+  
+  if attendance >= 75{
+      fmt.Println(name,"is Eligible for Exam")
+  } else {
+      fmt.Println(name,"Is not Eligible for Exam")
+  }
+}
