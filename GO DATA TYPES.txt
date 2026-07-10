@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+  var name string = "rahul"
+  var attendance int = 85
+  var cgpa float64 = 8.9
+  var submitted bool = true
+  
+  fmt.Println(name,attendance,cgpa,submitted)
+}
