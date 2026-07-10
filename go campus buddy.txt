@@ -1,6 +1,11 @@
 package main
+
 import "fmt"
 
 func main() {
-  fmt.Println("welcome to go campus buddy")
+    var studentName string = "Rahul"
+    var attendance int = 92
+    
+    fmt.Println("student:",studentName)
+    fmt.Println("attendance:",attendance)
 }
